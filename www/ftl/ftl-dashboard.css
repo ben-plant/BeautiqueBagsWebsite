@@ -1,0 +1,88 @@
+#main_title
+{
+	font-size: 36px;
+	font-weight: bold;
+	margin: 5px 5px 5px;
+}
+
+#ftl_working
+{
+	border: 3px solid #298A08;
+	background-color: #CEF6CE;
+}
+
+#ftl_beta
+{
+	border: 3px solid #B18904;
+	background-color: #F5F6CE;
+}
+
+#ftl_broken
+{
+	border: 3px solid #FF0000;
+	background-color: #F6CECE;
+}
+
+#ftl_planned
+{
+	border: 3px solid #013ADF;
+	background-color: #CED8F6;
+}
+
+#ftl_todo
+{
+	border: 3px solid #DF01D7;
+	background-color: #F8E0F7;
+}
+
+#working_title
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#beta_title
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#broken_title
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#planned_title
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#todo_title
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#table-headers
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+td
+{
+	border: 1px solid #FFFFFF;
+	background-color: #F8E0F7;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table
+{
+	width: 100%;
+	height: auto;
+}
+
+

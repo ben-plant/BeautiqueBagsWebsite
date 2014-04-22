@@ -1,0 +1,385 @@
+* { padding: 0; margin: 0; }
+
+a:link  	{ color: #e6e6e6; text-decoration: none}
+a:visited   { color: #e6e6e6; text-decoration: none}
+
+body {
+ font-size: 13px;
+ background-color: #444444;
+ background-image: url("images/black.png");
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+
+}
+
+img {
+	border: 0px;
+}
+
+h1 {
+ font-size: 35px;
+ font-weight: 100;
+}
+
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #FF0000;
+}
+
+td {
+}
+
+table, th, td {
+	width: inherit;
+	padding-left: 5px;
+	border-collapse: collapse;
+	border: 1px solid #666666;
+	font-size: 22px;
+	height: inherit;
+}
+
+.changingButton
+{
+	background: url("images/ButtonValidate.png");
+	border: none;
+	height: 38px;
+	width:  80px;
+	padding: 5px;
+}
+
+.discountTextBox
+{
+	font-size: 50px;
+}
+
+.yesButton
+{
+	background: url("images/ButtonYes.png");
+	border: none;
+	height: 38px;
+	width:  80px;
+}
+
+.noButton
+{
+	background: url("images/ButtonNo.png");
+	border: none;
+	height: 38px;
+	width:  80px;
+}
+
+#discount_code
+{
+	height: inherit;
+	font-size: 22px;
+	vertical-align: middle;
+}
+
+#saleprice
+{
+	font-size: 25px;
+	color: red;
+}
+
+#datatable {
+	height: 200px;
+	width: 100%;
+	background: #EAEAEA;
+}
+
+#wrapper { 
+ margin: 0 auto;
+ width: 1220px;
+}
+#header {
+ width: 1200px;
+ color: #333;
+ padding: 0px;
+ height: 120px;
+ margin: 0px 0px 0px 0px;
+ vertical-align: middle;
+ overflow: hidden;
+}
+#navigation {
+ width: 1200px;
+ padding: 10px;
+ height: 17px;
+ margin: 0px 0px 0px 0px;
+ text-shadow: 1px 1px 1px #580583;
+ background-image: url("images/TopBar.png");
+ background-color: none;
+ color: #ffffff;
+ text-decoration: none;
+}
+#fillerimage { 
+ display: table-cell;
+ width: 610px;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ background: #330066;
+ margin: 0px 0px 0px 0px;
+ padding: 50px;
+ height: 400px;
+ vertical-align: middle;
+}
+#searchbox { 
+ display: table-cell;
+ width: 610px;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ background: #330066;
+ margin: 0px 0px 0px 0px;
+ padding: 50px;
+ height: 400px;
+ vertical-align: middle;
+}
+#frontpagecontent { 
+ display: table-cell;
+ width: 1220px;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ background: #F2F2E6;
+ margin: 0px 0px 0px 0px;
+ padding: 50px;
+ height: 400px;
+ background-image: url("images/frontpage.jpg");
+ vertical-align: middle;
+}
+#paypal {
+ width: 100px;
+}
+#sidebar{
+ float: left;
+ background-color: #580683;
+ height: 100%;
+ width: 300px;
+ padding: 10px;
+}
+#backbar{
+ float: left;
+ background-color: #580683;
+ background-image:url("images/backbar.png");
+ height: 100%;
+ width: 1200px;
+ padding: 10px;
+ z-index: 10;
+}
+#content {
+ float: left;
+ height: 530px;
+ width: 580px;
+ padding: 10px;
+ margin: 0px 0px 0px 0px;
+ color: black;
+ background-color: #F2F2E6;
+}
+#bar {
+ width: 1200px;
+ padding: 10px;
+ height: 17px;
+ margin: 0px 0px 0px 0px;
+ color: #333333;
+ background-image: url("images/navbar.png");
+ text-shadow: 1px 1px 1px #580583;
+ background-color: #6633CC;
+ }
+
+/* Search results */
+
+#splitbar{
+ float: left;
+ background-color: #AEAEAE;
+ height: 3px;
+ width: 1220px;
+}
+#searchresult {
+ font-family: 'Fjalla One', sans-serif;
+ height: 30%;
+ color: white;
+ text-decoration: none;
+ height: auto;
+}
+#SearchResultContainer { 
+ display: table;
+ height: 150px;
+ width: 100%;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ margin: 0px 0px 0px 0px;
+ position: relative;
+ float: left;
+
+}
+#searchresultimage {
+ border: 1px;
+ border-color: #3e3e3e;
+ background-color: none;
+ background-image:url("images/bagback.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ width: auto;
+ height: auto;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ margin: auto;
+}
+#searchresultcontent {
+ width: 100%;
+ height: auto;
+ padding: 20px;
+ color: white;
+ background-color: none;
+ background-image:url("images/rakish.png");
+ background-repeat: no-repeat;
+ position: inherit;
+ float: left;
+}
+
+#socialbar { 
+ float: right;
+ height: auto;
+ width: 1210px;
+ color: #ffffff;
+ text-shadow: 1px 1px 1px #580583;
+ background: #eaeaea; /* Old browsers */
+ background: -moz-linear-gradient(left, #eaeaea 29%, #580683 47%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, right top, color-stop(29%,#eaeaea), color-stop(47%,#580683)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(left, #eaeaea 29%,#580683 47%); /* Chrome10+,Safari5.1+ */ 
+ background: -o-linear-gradient(left, #eaeaea 29%,#580683 47%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(left, #eaeaea 29%,#580683 47%); /* IE10+ */
+ background: linear-gradient(to right, #eaeaea 29%,#580683 47%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#580683',GradientType=1 ); /* IE6-9 */
+ margin: 0px 0px 0px 0px;
+ padding-top: 5px;
+ padding-right: 5px;
+ padding-left:5px;
+}
+
+#infoblockleft
+{
+ float: left;
+ height: 200px;
+ width: 300px;
+ padding: 5px;
+ background: #8837A6;
+}
+
+#infoblockright
+{
+ float: right;
+ height: 200px;
+ width: 900px;
+ padding: 5px;
+ background: #8837A6;
+}
+
+#titleblock
+{
+ float: left;
+ font-family: 'Fjalla One', sans-serif;
+ width: 890px;
+ color: #ffffff;
+ font-size: 70px;
+ height: 90px;
+ padding: 5px;
+ border-bottom: solid 2px #FFFFFF;
+ border-left: solid 2px #FFFFFF;
+}
+
+
+#infoblock
+{
+ width: 890px;
+ height: 90px;
+ float: left;
+ padding: 5px;
+ border-left: solid 2px #FFFFFF;
+}
+
+#hotbuyticket
+{
+ background-image: url("/images/PriceTicketHot.png");
+ width: 245px;
+ height: 50px;
+ float: right;
+ position: absolute;
+ top: 40px;
+ right: -15px;
+ padding-top: 30px;
+ padding-left: 15px;
+ padding-bottom: 15px;
+ font-family: 'Fjalla One', sans-serif;
+ background-repeat: no-repeat;
+ color: #ffffff;
+ font-size: 42px;
+}
+
+#saleticket
+{
+ background-image: url("/images/PriceTicketSmall.png");
+ width: 245px;
+ height: 50px;
+ float: right;
+ position: absolute;
+ top: 140px;
+ right: -15px;
+ padding-top: 30px;
+ padding-left: 15px;
+ font-family: 'Fjalla One', sans-serif;
+ background-repeat: no-repeat;
+ color: #ffffff;
+ font-size: 42px;
+}
+
+#priceticket
+{
+ background-image: url("/images/PriceTicket.png");
+ width: 245px;
+ height: auto;
+ float: right;
+ position: absolute;
+ top: 250px;
+ right: -15px;
+ padding-top: 30px;
+ padding-left: 15px;
+ font-family: 'Fjalla One', sans-serif;
+ color: #ffffff;
+ font-size: 70px;
+}
+
+/* End of search results */
+
+#font_fjalla_table {
+ font-family: 'Fjalla One', sans-serif;
+ color: #580683;
+ text-shadow: none;
+ text-decoration: none;
+}
+
+#font_fjalla {
+ font-family: 'Fjalla One', sans-serif;
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#font_fjalla_dark {
+ font-family: 'Fjalla One', sans-serif;
+ color: #000000;
+ text-decoration: none;
+}
+
+a.link{
+	color: white; text-decoration: none;
+}
+
+#footer { 
+ float: right;
+ width: 1200px;
+ color: #ffffff;
+ text-shadow: 1px 1px 1px #580583;
+ background-image: url("images/BottomBar.png");
+ border: none;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+}

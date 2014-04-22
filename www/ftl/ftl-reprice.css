@@ -1,0 +1,18 @@
+label
+{
+	width: 4em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block;
+}
+
+fieldset
+{
+	border: 1px solid #FF0000;
+}
+
+legend
+{
+	border: 1px solid #FF0000;
+}

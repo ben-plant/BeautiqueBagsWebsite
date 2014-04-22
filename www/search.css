@@ -1,0 +1,137 @@
+* { padding: 0; margin: 0; }
+
+a:link  	{ color: #e6e6e6; text-decoration: none}
+a:visited   { color: #e6e6e6; text-decoration: none}
+
+body {
+ font-size: 13px;
+ background-color: #444444;
+ background-image: url("images/weave.jpg");
+ background-attachment: fixed;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+
+}
+img {
+	border: 0px;
+}
+
+h1 {
+ font-size: 35px;
+ font-weight: 100;
+}
+h6 {
+ font-size: 100px;
+ font-weight: 100;
+}
+
+input, textarea {
+	padding: 5px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	width: 100%;
+}
+
+select {
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	width: 100%;
+}
+
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #FFFFFF;
+}
+
+#wrapper { 
+ margin: 0 auto;
+ width: 1220px;
+}
+#header {
+ width: 1220px;
+ color: #333;
+ padding: 0px;
+ height: 120px;
+ margin: 0px 0px 0px 0px;
+ vertical-align: middle;
+ overflow: hidden;
+}
+#navigation {
+ width: 1200px;
+ padding: 10px;
+ height: 17px;
+ margin: 0px 0px 0px 0px;
+ text-shadow: 1px 1px 1px #580583;
+ background-image: url("images/TopBar.png");
+ background-color: none;
+ color: #ffffff;
+ text-decoration: none;
+}
+#fillerimage { 
+ display: table-cell;
+ width: 610px;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ background-image: url("images/searchbackground.jpg");
+ margin: 0px 0px 0px 0px;
+ padding: 50px;
+ height: 400px;
+ vertical-align: middle;
+}
+#searchbox { 
+ display: table-cell;
+ width: 610px;
+ color: #ffffff;
+ text-shadow: 3px 3px 7px #000000;
+ background-image: url("images/searchbackgroundright.jpg");
+ /* background: #330066; */
+ margin: 0px 0px 0px 0px;
+ padding: 50px;
+ height: 400px;
+ vertical-align: middle;
+}
+#backbar{
+ float: left;
+ background-color: #580683;
+ background-image:url("images/backbar.png");
+ height: 100%;
+ width: 1200px;
+ padding: 10px;
+}
+
+
+#font_fjalla {
+ font-family: 'Fjalla One', sans-serif;
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#font_fjalla_dark {
+ font-family: 'Fjalla One', sans-serif;
+ color: #000000;
+ text-decoration: none;
+}
+
+
+a.link{
+	color: white; text-decoration: none;
+}
+
+#footer { 
+ float: right;
+ width: 1200px;
+ height: 64px;
+ color: #ffffff;
+ text-shadow: 1px 1px 1px #580583;
+ background-repeat:no-repeat;
+ background-image: url("images/BottomBar.png");
+ border: none;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+}

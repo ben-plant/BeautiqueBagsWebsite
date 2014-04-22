@@ -1,0 +1,2 @@
+Main-Class: Lia
+Class-Path: JavaBridge.jar
